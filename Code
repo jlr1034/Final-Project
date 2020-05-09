@@ -35,6 +35,15 @@ awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}
 awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Felis_catus.Felis_catus_9.0.pep.all.fa > catunwrap.fa
 # unwrap files 
 
-
-
+grep -A 1 "agouti" polarbearunwrap.fa > apolarbear.fa
+grep -A 1 "agouti" gorillaunwrap.fa > agorilla.fa
+grep -A 1 "agouti" horseunwrap.fa > ahorse.fa
+grep -A 1 "agouti" pigunwrap.fa > apig.fa
+grep -A 1 "agouti" mouseunwrap.fa > amouse.fa
+grep -A 1 "agouti" alpacaunwrap.fa > aalpaca.fa
+grep -A 1 "agouti" tigerunwrap.fa > atiger.fa
+grep -A 1 "agouti" lionunwrap.fa > alion.fa
+grep -A 1 "agouti" cowunwrap.fa > acow.fa
+grep -A 1 "agouti" catunwrap.fa > acat.fa 
+#pull out agouti gene from each animal 
 
