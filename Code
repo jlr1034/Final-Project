@@ -65,3 +65,8 @@ cat headapolarbear.fa headagorilla.fa headahorse.fa headapig.fa headamouse.fa he
 mafft --auto allheaders.fa > outputallheaders.fa 
 #MSA
 
+iqtree -s outputallheaders.fa -m LG -bb 1000 -pre output
+#use of iqtree to make tree
+
+cat output.contree
+
