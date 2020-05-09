@@ -1,0 +1,9 @@
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/ursus_maritimus/pep/Ursus_maritimus.UrsMar_1.0.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/gorilla_gorilla/pep/Gorilla_gorilla.gorGor4.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/equus_callabus/pep/Equus_caballus.EquCab3.0.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/sus_scrofa/pep/Sus_scrofa.Sscrofa11.1.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/mus_musculus/pep/Mus_musculus.GRCm38.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/vicugna_pacos/pep/Vicugna_pacos.vicPac1.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/panthera_tigris_altaica/pep/Panthera_tigris_altaica.PanTig1.0.pep.all.fa.gz
+Curl -LO ftp://ftp.ensembl.org/pub/release-100/fasta/panthera_leo/pep/Panthera_leo.PanLeo1.0.pep.all.fa.gz
+Curl -LO 
