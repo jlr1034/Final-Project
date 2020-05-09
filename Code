@@ -47,3 +47,15 @@ grep -A 1 "agouti" cowunwrap.fa > acow.fa
 grep -A 1 "agouti" catunwrap.fa > acat.fa 
 #pull out agouti gene from each animal 
 
+awk '/^>/{print ">apolarbear.fa" ++i; next}{print}' apolarbear.fa > headapolarbear.fa  
+awk '/^>/{print ">agorilla.fa" ++i; next}{print}' agorilla.fa > headagorilla.fa  
+awk '/^>/{print ">ahorse.fa" ++i; next}{print}' ahorse.fa > headahorse.fa  
+awk '/^>/{print ">apig.fa" ++i; next}{print}' apig.fa > headapig.fa  
+awk '/^>/{print ">amouse.fa" ++i; next}{print}' amouse.fa > headamouse.fa  
+awk '/^>/{print ">aalpaca.fa" ++i; next}{print}' aalpaca.fa > headaalpaca.fa  
+awk '/^>/{print ">atiger.fa" ++i; next}{print}' atiger.fa > headatiger.fa  
+awk '/^>/{print ">alion.fa" ++i; next}{print}' alion.fa > headalion.fa  
+awk '/^>/{print ">acow.fa" ++i; next}{print}' acow.fa > headacow.fa  
+awk '/^>/{print ">acat.fa" ++i; next}{print}' acat.fa > headacat.fa  
+#pulling headers from each agouti file
+
