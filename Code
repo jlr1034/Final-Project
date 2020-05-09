@@ -23,3 +23,18 @@ gzip -d Bos_taurus.ARS-UCD1.2.pep.all.fa.gz
 gzip -d Felis_catus.Felis_catus_9.0.pep.all.fa.gz
 # unzip files 
 
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Ursus_maritimus.UrsMar_1.0.pep.all.fa > polarbearunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Gorilla_gorilla.gorGor4.pep.all.fa > gorillaunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Equus_caballus.EquCab3.0.pep.all.fa > horseunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Sus_scrofa.Sscrofa11.1.pep.all.fa > pigunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Mus_musculus.GRCm38.pep.all.fa > mouseunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Vicugna_pacos.vicPac1.pep.all.fa > alpacaunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Panthera_tigris_altaica.PanTig1.0.pep.all.fa > tigerunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Panthera_leo.PanLeo1.0.pep.all.fa > lionunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Bos_taurus.ARS-UCD1.2.pep.all.fa > cowunwrap.fa
+awk '{if(NR==1) {print $0} else {if($0 ~ /^>/) {print "\n"$0} else {printf $0}}}' Felis_catus.Felis_catus_9.0.pep.all.fa > catunwrap.fa
+# unwrap files 
+
+
+
+
