@@ -59,3 +59,7 @@ awk '/^>/{print ">acow.fa" ++i; next}{print}' acow.fa > headacow.fa
 awk '/^>/{print ">acat.fa" ++i; next}{print}' acat.fa > headacat.fa  
 #pulling headers from each agouti file
 
+cat headapolarbear.fa headagorilla.fa headahorse.fa headapig.fa headamouse.fa headaalpaca.fa headatiger.fa headalion.fa headacow.fa headacat.fa > allheaders.fasta
+#put all the headers from each agouti headers file into a combined file
+
+
